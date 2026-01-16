@@ -97,6 +97,16 @@
   .meet-section .meet-text-box, .meet-section .meet-text-box p, .meet-section .meet-image-box {
     width: var(--ls-full);
   }
+
+  /* Features Section Styles */
+  .feature-section .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-section .feature {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 501px) {
@@ -137,5 +147,10 @@
 
   .meet-section .meet-left-image{
     row-gap: var(--el-normal);
+  }
+
+  /* Features Section Styles */
+  .feature-section .feature{
+    width: 90%;
   }
 }

@@ -13,6 +13,9 @@
   <!-- Remix Icon CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Swiper Slider CSS Link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
   <!-- CSS Files Link -->
   <!-- Reset File -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -124,9 +127,54 @@
         </div>
       </div>
     </section>
+
+    <!-- Slider Section -->
+    <section class="slider-section section">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slider-image">
+                <img src="images/slide-image-1.jpeg" alt="slider image">
+              </div>
+              <div class="slider-text">
+                <h4>천연 재료로부터 만들어진 자연의<br>향기를 만듭니다.</h4>
+                <p>우하네무었의 라차듬밧에 에우랑 욍읍시로 얼메빠를 허노다 시듷궈이다 송승이 릐레시랄 셰흐노닷에 뮈흐부나난다. 옴륵잉는 나채녀부에</p>
+                <a href="#" class="common-button">자세히 보기</a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="slider-image">
+                <img src="images/slide-image-1.jpeg" alt="slider image">
+              </div>
+              <div class="slider-text">
+                <h4>천연 재료로부터 만들어진 자연의<br>향기를 만듭니다.</h4>
+                <p>우하네무었의 라차듬밧에 에우랑 욍읍시로 얼메빠를 허노다 시듷궈이다 송승이 릐레시랄 셰흐노닷에 뮈흐부나난다. 옴륵잉는 나채녀부에</p>
+                <a href="#" class="common-button">자세히 보기</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
   </div>
   <!-- Scroll Reveal Plugin -->
   <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Swiper Slider Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
   <!-- Main Scripts -->
   <script src="js/header.js"></script>

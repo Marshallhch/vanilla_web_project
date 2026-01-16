@@ -126,6 +126,7 @@ input, textarea, button {
   padding: var(--el-small) var(--el-medium);
   border-radius: 0.25rem;
   font-size: var(--fs-14);
+  width: fit-content;
 }
 
 .common-button:hover {
