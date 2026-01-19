@@ -256,11 +256,23 @@
 .offers-section .product-frame {
   width: var(--ls-1-3);
   padding: var(--el-medium);
+
+}
+
+.offers-section .product-img {
+  width: var(--ls-full);
+  height: 220px;
+  overflow:hidden;
+  position: relative;
+  border-radius: 0.25rem;
 }
 
 .offers-section .product-frame img{
   width: var(--ls-full);
-  border-radius: 0.25rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .offers-section .product-text {
